@@ -1,0 +1,53 @@
+body * {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* your styles go here! */ 
+body {
+  background: black;
+  color: white;
+}
+
+main{
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 0 90px;
+}
+h1 {
+  text-align: center;
+  color: aqua;
+}
+h3 {
+  background-image: linear-gradient(to left, black, blue, black);
+  padding: 5px 5px;
+  text-align: center;
+}
+.pic {
+  width: 300px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  border: 3px solid aqua;
+}
+.pic:hover {
+  border-color: white;
+}
+.greenNebula {
+  float: left;
+  margin-right: 10px;
+}
+
+.starburst {
+  float: right;
+  margin-left: 10px;
+}
+
+p::first-letter {
+  font-size: 24px;
+  font-weight: bold;
+  color: aqua;
+}
